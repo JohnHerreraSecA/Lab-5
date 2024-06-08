@@ -1,0 +1,112 @@
+h2 {
+    text-align: center;
+}
+
+/* Apply a light green background to the entire body */
+body {
+    background-color: #d3ffd3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Center and style the navigation bar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    top: 30px; /* Adjust the top position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-list li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar .nav-list li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.navbar .nav-list li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Style the main section */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Center the image */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+/* Styling for section */
+section {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section p {
+    line-height: 1.6;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.448); /* Enhanced shadow on hover */
+}
+
+/* Center and style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: transparent; /* Make the background transparent */
+    color: #fff; /* Add color to the text */
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5px; 
+    width: 50%;
+    box-shadow: none; /* Remove shadow to keep it see-through */
+}
+
+footer span {
+    color: #333; /* Color for the footer text */
+}
